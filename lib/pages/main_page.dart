@@ -8,8 +8,18 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  PageController controller = PageController(initialPage: 0);
+  int posicaoPagina = 0;
+
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(); //tirar esse Scaffold depois...
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(title: const Text("Wallpaper Labs"),
+        centerTitle: true,
+        ),
+
+      )
+    ); 
   }
 }
