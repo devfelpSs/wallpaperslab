@@ -46,9 +46,9 @@ class _MainPageState extends State<MainPage> {
                 controller.jumpToPage(value);
               },
               currentIndex: posicaoPagina, items: const [
-                BottomNavigationBarItem(label: "Nature", icon: Icon(Icons.home)),
-                BottomNavigationBarItem(label: "Cars", icon: Icon(Icons.find_in_page)),
-                BottomNavigationBarItem(label: "Animals", icon: Icon(Icons.widgets)),
+                BottomNavigationBarItem(label: "Nature", icon: Icon(Icons.nature)),
+                BottomNavigationBarItem(label: "Cars", icon: Icon(Icons.directions_car)),
+                BottomNavigationBarItem(label: "Animals", icon: Icon(Icons.insert_photo)),
               ],
             ),
           ],
