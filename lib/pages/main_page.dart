@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:wallpaperslab/pages/animals.dart';
+import 'package:wallpaperslab/pages/cars.dart';
+import 'package:wallpaperslab/pages/nature.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -24,19 +27,19 @@ class _MainPageState extends State<MainPage> {
         body: Column(
           children: [
             Expanded(child: PageView(
-              controller: controller, //setando o controle de posicaoPagina
-              onPageChanged: (value){ 
-                setState(() {
-                  posicaoPagina = value; //seta o estado da pagina com base no valor dela
-                });
-              },
-              /*children: [
-                Nature(),
-                Cars(),
-                Animals(),
-                People(),
-              ],*/
-            )),
+                controller: controller, //setando o controle de posicaoPagina
+                onPageChanged: (value){ 
+                  setState(() {
+                    posicaoPagina = value; //seta o estado da pagina com base no valor dela
+                  });
+                },
+                children: const [ //Setando paginas na MainPage:
+                  NatureImages(),
+                  CarsImages(),
+                  AnimalsImages(),
+                ],
+              ),
+            ),
             BottomNavigationBar(
               type: BottomNavigationBarType.fixed,
               onTap: (value){
@@ -46,7 +49,6 @@ class _MainPageState extends State<MainPage> {
                 BottomNavigationBarItem(label: "Nature", icon: Icon(Icons.home)),
                 BottomNavigationBarItem(label: "Cars", icon: Icon(Icons.find_in_page)),
                 BottomNavigationBarItem(label: "Animals", icon: Icon(Icons.widgets)),
-                BottomNavigationBarItem(label: "People", icon: Icon(Icons.list)),
               ],
             ),
           ],
