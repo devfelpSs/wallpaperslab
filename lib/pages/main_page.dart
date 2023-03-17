@@ -17,8 +17,40 @@ class _MainPageState extends State<MainPage> {
       child: Scaffold(
         appBar: AppBar(title: const Text("Wallpaper Labs"),
         centerTitle: true,
+        backgroundColor: Colors.blue,
+        shadowColor: Colors.blue,
         ),
-
+        //drawer: const CustomDrawer(), (((DESATIVADO POR ENQUANTO)))
+        body: Column(
+          children: [
+            Expanded(child: PageView(
+              controller: controller, //setando o controle de posicaoPagina
+              onPageChanged: (value){ 
+                setState(() {
+                  posicaoPagina = value; //seta o estado da pagina com base no valor dela
+                });
+              },
+              /*children: [
+                Nature(),
+                Cars(),
+                Animals(),
+                People(),
+              ],*/
+            )),
+            BottomNavigationBar(
+              type: BottomNavigationBarType.fixed,
+              onTap: (value){
+                controller.jumpToPage(value);
+              },
+              currentIndex: posicaoPagina, items: const [
+                BottomNavigationBarItem(label: "Nature", icon: Icon(Icons.home)),
+                BottomNavigationBarItem(label: "Cars", icon: Icon(Icons.find_in_page)),
+                BottomNavigationBarItem(label: "Animals", icon: Icon(Icons.widgets)),
+                BottomNavigationBarItem(label: "People", icon: Icon(Icons.list)),
+              ],
+            ),
+          ],
+        ),
       )
     ); 
   }
