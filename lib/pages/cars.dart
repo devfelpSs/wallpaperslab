@@ -30,10 +30,9 @@ class _CarsImagesState extends State<CarsImages> {
                 Card(child: Image.asset(AppImages.car9),),
                 Card(child: Image.asset(AppImages.car10),),
               ],
-            )),
-            Expanded(flex: 3, child: Container())
+            )
+          ),
       ],),
     );
-
   }
 }
