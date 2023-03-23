@@ -14,6 +14,15 @@ class _ImageAssetsPageState extends State<ImageAssetsPage> {
     return Column(
       children: [
         Image.asset(AppImages.animal1, height: 50,),
+        Image.asset(AppImages.animal2, height: 50,),
+        Image.asset(AppImages.animal3, height: 50,),
+        Image.asset(AppImages.animal4, height: 50,),
+        Image.asset(AppImages.animal5, height: 50,),
+        Image.asset(AppImages.animal6, height: 50,),
+        Image.asset(AppImages.animal7, height: 50,),
+        Image.asset(AppImages.animal8, height: 50,),
+        Image.asset(AppImages.animal9, height: 50,),
+        Image.asset(AppImages.animal10, height: 50,),
 
       ],
     );
