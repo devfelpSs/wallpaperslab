@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:wallpaperslab/shared/widgets/app_image.dart';
+import 'package:wallpaperslab/shared/widgets/app_images.dart';
 
 class ImageAssetsPage extends StatefulWidget {
   const ImageAssetsPage({super.key});
