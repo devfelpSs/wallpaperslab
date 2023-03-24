@@ -16,22 +16,21 @@ class _CarsImagesState extends State<CarsImages> {
         children: [
           Expanded(
             child: ListView(
-              scrollDirection: Axis.horizontal,
+              scrollDirection: Axis.vertical,
               children: [
-                Card(child: Image.asset(AppImages.car1,)),
-                Card(child: Image.asset(AppImages.car2,)),
-                Card(child: Image.asset(AppImages.car3,)),
-                Card(child: Image.asset(AppImages.car4,)),
-                Card(child: Image.asset(AppImages.car5,)),
-                Card(child: Image.asset(AppImages.car6,)),
-                Card(child: Image.asset(AppImages.car7,)),
-                Card(child: Image.asset(AppImages.car8,)),
-                Card(child: Image.asset(AppImages.car9,)),
-                Card(child: Image.asset(AppImages.car10,)),
+                Card(child: Image.network(AppImages.car1)),
+                Card(child: Image.network(AppImages.car2)),
+                Card(child: Image.network(AppImages.car3)),
+                Card(child: Image.network(AppImages.car4)),
+                Card(child: Image.network(AppImages.car5)),
+                Card(child: Image.network(AppImages.car6)),
+                Card(child: Image.network(AppImages.car7)),
+                Card(child: Image.network(AppImages.car8)),
+                Card(child: Image.network(AppImages.car9)),
+                Card(child: Image.network(AppImages.car10)),
               ],
             )
           ),
-          Expanded(flex: 3, child: Container())
       ],),
     );
   }

@@ -11,16 +11,18 @@ class AppImages {
   static String get animal8 => "/lib/images/animal8.jpg";
   static String get animal9 => "/lib/images/animal9.jpg";
   static String get animal10 => "/lib/images/animal10.jpg";
-  static String get car1 => "/lib/images/car1.jpg";
-  static String get car2 => "/lib/images/car2.jpg";
-  static String get car3 => "/lib/images/car3.jpg";
-  static String get car4 => "/lib/images/car4.jpg";
-  static String get car5 => "/lib/images/car5.jpg";
-  static String get car6 => "/lib/images/car6.jpg";
-  static String get car7 => "/lib/images/car7.jpg";
-  static String get car8 => "/lib/images/car8.jpg";
-  static String get car9 => "/lib/images/car9.jpg";
-  static String get car10 => "/lib/images/car10.jpg";
+  //Cars:
+  static String get car1 => "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80";
+  static String get car2 => "https://images.unsplash.com/photo-1544829099-13af78aa41b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80";
+  static String get car3 => "https://images.unsplash.com/photo-1602786195490-c785a218df40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80";
+  static String get car4 => "https://images.unsplash.com/photo-1616422285623-13ff0162193c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=731&q=80";
+  static String get car5 => "https://images.unsplash.com/photo-1489686995744-f47e995ffe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80";
+  static String get car6 => "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80";
+  static String get car7 => "https://images.unsplash.com/photo-1541348263662-e068662d82af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80";
+  static String get car8 => "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=708&q=80";
+  static String get car9 => "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80";
+  static String get car10 => "https://images.unsplash.com/photo-1607854962760-514f1c4a8609?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80";
+  
   static String get nature1 => "/lib/images/nature1.jpg";
   static String get nature2 => "/lib/images/nature2.jpg";
   static String get nature3 => "/lib/images/nature3.jpg";
@@ -32,3 +34,11 @@ class AppImages {
   static String get nature9 => "/lib/images/nature9.jpg";
   static String get nature10 => "/lib/images/nature10.jpg";
 }
+
+
+
+
+
+
+
+
