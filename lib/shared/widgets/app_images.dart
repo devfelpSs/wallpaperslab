@@ -1,6 +1,7 @@
 //Definindo classe para compartilhar as imagens:
 
 class AppImages {
+  //Animals:
   static String get animal1 => "/lib/images/animal1.jpg";
   static String get animal2 => "/lib/images/animal2.jpg";
   static String get animal3 => "/lib/images/animal3.jpg";
@@ -22,7 +23,7 @@ class AppImages {
   static String get car8 => "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=708&q=80";
   static String get car9 => "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80";
   static String get car10 => "https://images.unsplash.com/photo-1607854962760-514f1c4a8609?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80";
-  
+  //Nature:
   static String get nature1 => "/lib/images/nature1.jpg";
   static String get nature2 => "/lib/images/nature2.jpg";
   static String get nature3 => "/lib/images/nature3.jpg";
